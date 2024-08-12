@@ -33,3 +33,6 @@ Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored b
 
 
 ## How to run code
+
+## Contact 
+If you have any questions, thoughts or comments about this piece, do contact [Katherine Moriwaki](https://kakirine.com/) at moriwakk@newschool.edu
