@@ -10,11 +10,9 @@ In order to do this we used strategies outlined in academic papers on horizon li
 
 The blended images when layered over each other with merged opacity create a single image that slowly updates as more captured and processed images are added to it. The end effect is one of an unsettling indistinguishability. In other words, the view of a horizon, across the vast expanse of ocean that surrounds us might be variable, but is also unchanging, and this tension is something we also experience in our experience of our own existence and humanity. 
 
-Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored by the system. Each buoy has its own data and image set. The work is presented in two forms. 
-
-As a website. The single page site presents the images from each buoy side by side. The images from the buoys might change slowly, or they may look the same depending on weather conditions and time of day. Regardless, they present a kind of liminality, a sense of however between states as represented by each view captured by the buoyCAM. 
-
-As an installation. Each buoy’s images are combined into a projectable image. Each image is projected onto opposite sides of a room. 
+Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored by the system. Each buoy has its own data and image set. The work is presented in two forms: 
+1. As a website. The single page site presents the images from each buoy side by side. The images from the buoys might change slowly, or they may look the same depending on weather conditions and time of day. Regardless, they present a kind of liminality, a sense of however between states as represented by each view captured by the buoyCAM.
+2. As an installation. Each buoy’s images are combined into a projectable image. Each image is projected onto opposite sides of a room. 
 
 
 ## How to run code
