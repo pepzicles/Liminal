@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoy Data</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+
+    <!-- Display cropped images -->
+    <div>
+        <h2>Cropped Images</h2>
+        <!-- <p>{{cropped_image_paths}}</p> -->
+        <h1>Detected Lines</h1>
+        {% for image in full_image_path %}
+            <img src="{{ image }}" alt="Processed Image">
+        {% endfor %}
+    </div>
+</body>
+</html>

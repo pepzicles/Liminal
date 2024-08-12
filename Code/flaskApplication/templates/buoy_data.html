@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoy Data</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <h1>Buoy Data</h1>
+
+    <!-- Display all the raw images -->
+    <!-- <div>
+        {% for raw_image_path in raw_images_paths %}
+            <p>{{ raw_image_path }}</p>
+            <img src="{{ url_for('static', filename=raw_image_path) }}" style="height: 100px; width: auto">
+        {% endfor %}
+    </div> -->
+    
+
+    <!-- Display the CURRENT image being saved -->
+    <div>
+        <p>image_url: {{ image_url }}</p>
+        <img src="{{ image_url }}" alt="Buoy Image">
+        <p>Current Date and Time: {{ current_date_time_str }}</p>
+        <p>{{ image_save_message }}</p>
+    </div>
+    
+
+    <!-- Display cropped images -->
+    <div>
+        <h2>Cropped Images</h2>
+        <div>
+        <!-- <p>{{cropped_image_paths}}</p> -->
+        {% for cropped_image_path in cropped_image_paths %}
+            <p>{{cropped_image_path}}</p>
+             <img src="{{ url_for('static', filename=cropped_image_path) }}" style="height: 100px; width: auto">
+        {% endfor %}
+        </div>
+    </div>
+
+    <!-- Display all processed images -->
+    <div>
+        <h2>Processed Images</h2>
+        {% for file in processed_image_files %}
+            <p>{{file}}</p>
+            <img src="{{ url_for('static', filename=file) }}" style="height: 100px; width: auto;">
+        {% endfor %}
+    </div>
+
+    <!-- Display ROI detected images -->
+    <div>
+        <h2>ROI Detected Images</h2>
+        {% for file in roi_images %}
+            <img src="{{ url_for('static', filename=file) }}" style="height: 100px; width: auto;">
+        {% endfor %}
+    </div>
+
+
+    <!-- Cropped ROIs -->
+    <div>
+        <h2>Cropped Images from ROI</h2>
+        {% for image_file in image_files %}
+            <img src="{{ url_for('static', filename=image_file) }}" alt="Cropped Image" style="width:300px;">
+        {% endfor %}
+    </div>
+
+
+    <!-- Detect lines within ROIs -->
+    <div>
+        <h2>Processed Images with Detected Lines</h2>
+        {% for image in processed_image_files %}
+            <img src="{{ image }}" alt="Processed Image" style="width:200px; height:auto;">
+        {% endfor %}
+    </div>
+</body>
+</html>
