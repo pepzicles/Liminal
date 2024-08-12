@@ -6,13 +6,8 @@ by [Katherine Moriwaki](https://kakirine.com/)
 
 adjectiveTECHNICAL
 adjective: liminal
-
-1.
-occupying a position at, or on both sides of, a boundary or threshold.
-"I was in the liminal space between past and present"
-
-3.
-relating to a transitional or initial stage of a process.
+1. occupying a position at, or on both sides of, a boundary or threshold. "I was in the liminal space between past and present"
+2. relating to a transitional or initial stage of a process.
 "that liminal period when a child is old enough to begin following basic rules but is still too young to do so consistently"
 
 Liminal: A space in between. A transition from one stage to another. 
