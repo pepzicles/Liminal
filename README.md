@@ -1,7 +1,21 @@
 # Liminal
 by [Katherine Moriwaki](https://kakirine.com/)
 
-## About
+## lim·i·nal
+/ˈlimənəl/
+adjectiveTECHNICAL
+adjective: liminal
+1.
+occupying a position at, or on both sides of, a boundary or threshold.
+"I was in the liminal space between past and present"
+2.
+relating to a transitional or initial stage of a process.
+"that liminal period when a child is old enough to begin following basic rules but is still too young to do so consistently"
+
+Liminal: A space in between. A transition from one stage to another. 
+
+
+## Concept
 This project explores liminality through the capture, transformation, and re-presentation of images captured by sea buoys within the the NOAA BuoyCAM network.
 
 NOAA Buoys in the BuoyCAM network publish a strip of six photos every ten minutes as part of the data stream each buoy produces. The code checks the buoy and pulls the most recent strip of images. Each image in the strip is separated into its own standalone image. Horizon detection for each image is established, then each image is manipulated in code so that the horizon on each image is aligned and averaged together. 
