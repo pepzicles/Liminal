@@ -38,9 +38,12 @@ Running code locally:
 3. In the Anaconda-Navigator, launch Jupyter Notebook. Navigate to where you have downloaded Liminal.ipynb, and open it in Jupyter Notebook.
 4. Run all the cells. All images, media should be downloaded locally in a folder called "downloadedImages".
 
+
 To automatically run the code every 10 minutes: 
-1. Under the folder "Code", download [run_notebook.py](Code/run_notebook.py). 
-1. Open terminal. Navigate (cd) into the folder where you have Liminal.ipynb and 
+1. Under the folder "Code", download [run_notebook.py](Code/run_notebook.py) in the same folder as Liminal.ipynb. 
+2. Open terminal. Navigate (cd) into the folder where you have Liminal.ipynb and run_notebook.py
+3. In terminal, run: _python run_notebook.py_
+This would automatically make Liminal.ipynb restart and run all its cells every 10 mins.
 
 
 ## Contact 
