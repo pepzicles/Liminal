@@ -28,7 +28,10 @@ Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored b
 
 
 ## How to run code
+As of August 2024, this project is not complete yet. We have yet to turn this project into a full-fledged, web-application instead of a local one. For now, the project works works by running locally, meaning all the images and media will be stored locally, on your device. 
 
+Running code locally: 
+1. Under the folder "Code", click into [Liminal.ipynb]("Code/Liminal.ipynb")
 
 
 ## Contact 
