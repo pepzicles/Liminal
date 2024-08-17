@@ -31,8 +31,10 @@ Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored b
 As of August 2024, this project is not complete yet. We have yet to turn this project into a full-fledged, web-application instead of a local one. For now, the project works works by running locally, meaning all the images and media will be stored locally, on your device. 
 
 Running code locally: 
-1. Under the folder "Code", download into [Liminal.ipynb](Code/Liminal.ipynb). Open this in Jupyter Notebook.
+1. If you don't have it already, download [Anaconda](https://www.anaconda.com/download). Then, download Juypter Notebook in Anaconda.
 2. 
+3. Under the folder "Code", download into [Liminal.ipynb](Code/Liminal.ipynb). Open this in Jupyter Notebook.
+4. 
 
 
 ## Contact 
