@@ -26,15 +26,21 @@ Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored b
 1. As a website. The single page site presents the images from each buoy side by side. The images from the buoys might change slowly, or they may look the same depending on weather conditions and time of day. Regardless, they present a kind of liminality, a sense of however between states as represented by each view captured by the buoyCAM.
 2. As an installation. Each buoy’s images are combined into a projectable image. Each image is projected onto opposite sides of a room. 
 
+## Navigating this repository
+1. 
 
 ## How to run code
 As of August 2024, this project is not complete yet. We have yet to turn this project into a full-fledged, web-application instead of a local one. For now, the project works works by running locally, meaning all the images and media will be stored locally, on your device. 
 
 Running code locally: 
-1. Under the folder "Code", download into [Liminal.ipynb](Code/Liminal.ipynb).
+1. Under the folder "Code", download [Liminal.ipynb](Code/Liminal.ipynb).
 2. If you don't have it already, download [Anaconda](https://www.anaconda.com/download). Then, install Juypter Notebook in Anaconda.
 3. In the Anaconda-Navigator, launch Jupyter Notebook. Navigate to where you have downloaded Liminal.ipynb, and open it in Jupyter Notebook.
-5. 
+4. Run all the cells. All images, media should be downloaded locally in a folder called "downloadedImages".
+
+To automatically run the code every 10 minutes: 
+1. Under the folder "Code", download [run_notebook.py](Code/run_notebook.py). 
+1. Open terminal. Navigate (cd) into the folder where you have Liminal.ipynb and 
 
 
 ## Contact 
