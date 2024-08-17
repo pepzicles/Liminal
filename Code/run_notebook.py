@@ -1,7 +1,7 @@
 # import time
 # from subprocess import run
 
-# notebook_path = "webApp.ipynb"
+# notebook_path = "Liminal.ipynb"
 
 # while True:
 #     # Run the Jupyter Notebook using nbconvert in execute mode
