@@ -27,7 +27,9 @@ Two buoys 44025 (Santa Monica Basin) and 44065 (New York Harbor) are monitored b
 2. As an installation. Each buoy’s images are combined into a projectable image. Each image is projected onto opposite sides of a room. 
 
 ## Navigating this repository
-1. 
+In the [Code folder](Code), you will see:
+1. [downloadedImages folder](Code/downloadedImages)- This is the folder where all the buoy images are stored and processed from. You can also find all the processed buoy images in this folder. This is the folder which all your images from running Liminal.ipynb will be stored.
+2. 
 
 ## How to run code
 As of August 2024, this project is not complete yet. We have yet to turn this project into a full-fledged, web-application instead of a local one. For now, the project works works by running locally, meaning all the images and media will be stored locally, on your device. 
