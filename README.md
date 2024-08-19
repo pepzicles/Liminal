@@ -50,8 +50,11 @@ To automatically run the code every 10 minutes:
 This would automatically make Liminal.ipynb restart and run all its cells every 10 mins.
 
 ## References
-
-
+We got the idea of cropping the images into their respective **regions of interest (ROI)** before trying to align their horizons from these research papers: 
+1. [Fast horizon detection in maritime images using region-of-interest](https://journals.sagepub.com/doi/10.1177/1550147718790753)
+2. [An Overview on Horizon Detection Methods in Maritime Video Surveillance ](https://www.researchgate.net/publication/340796087_An_Overview_on_Horizon_Detection_Methods_in_Maritime_Video_Surveillance)
+3. [Research on a Horizon Line Detection Method for Unmanned Surface Vehicles in Complex Environments](https://www.researchgate.net/publication/371118691_Research_on_a_Horizon_Line_Detection_Method_for_Unmanned_Surface_Vehicles_in_Complex_Environments)
+4. [Automatic detection of small surface targets with Electro-Optical sensors in a harbor environment](https://www.researchgate.net/publication/228697970_Automatic_detection_of_small_surface_targets_with_Electro-Optical_sensors_in_a_harbor_environment)
 
 ## Contact 
 If you have any questions, thoughts or comments about this piece, do contact [Katherine Moriwaki](https://kakirine.com/) at moriwakk@newschool.edu
