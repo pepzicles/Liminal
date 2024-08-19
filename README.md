@@ -49,6 +49,9 @@ To automatically run the code every 10 minutes:
 3. In terminal, run: _python run_notebook.py_
 This would automatically make Liminal.ipynb restart and run all its cells every 10 mins.
 
+## References
+
+
 
 ## Contact 
 If you have any questions, thoughts or comments about this piece, do contact [Katherine Moriwaki](https://kakirine.com/) at moriwakk@newschool.edu
