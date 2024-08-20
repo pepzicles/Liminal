@@ -1,6 +1,8 @@
 # Liminal
 by [Katherine Moriwaki](https://kakirine.com/)
 
+<img src="Media/final.gif" alt="demo" width="600"/>
+
 ## lim·i·nal
 /ˈlimənəl/
 
