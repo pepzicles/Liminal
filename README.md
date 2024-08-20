@@ -35,7 +35,7 @@ In the [Code folder](Code), you will see:
 3. [Liminal.ipynb](Code/Liminal.ipynb) - This is the Jupyter Notebook file where all the code runs from, and all the images are being generated from. See below to find out how to run the code in Jupyter Notebook.
 4. [run_notebook.py](Code/run_notebook.py) - This is the python script that automatically runs Liminal.ipynb every 10 minutes, so that a new video with updated, real-time buoy images can be generated every 10 minutes (the time it takes for a new buoy image to upload is also 10 minutes, so this is the fastest rate we can go to get new buoy images in real time). See below to find out how to run this python script.
 
-To understand the process behind this project, view [this process document](Process/Process of creating Liminal). 
+To understand the process behind this project, view [this process document](Process). 
 
 ## How to run code
 As of August 2024, this project is not complete yet. We have yet to turn this project into a full-fledged, web-application instead of a local one. For now, the project works works by running locally, meaning all the images and media will be stored locally, on your device. 
